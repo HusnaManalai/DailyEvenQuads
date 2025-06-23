@@ -65,20 +65,20 @@ body {
     contain: content;
 }
 /* Colors of card symbols */
-.color-0 { color: #c43b6f; }
-.color-1 { color: #694ddb; }
-.color-2 { color: #36993b; }
-.color-3 { color: #c78e23; }
+.color-0 { color: #da5f8e; }
+.color-1 { color: #9f5cc6; }
+.color-2 { color: #56cb5c; }
+.color-3 { color: #dfdd3f; }
 
 .card {
 
-    margin-left: 0.5em;
-    margin-right: 0.5em;
+    margin-left: 0.1em;
+    margin-right: 0.1em;
 
     padding: 0;
 
-    height: 16.5em;
-    width: 11em;
+    height: 16.0em;
+    width: 15em;
 
     position: relative;
 
@@ -112,7 +112,7 @@ body {
     height: 100%;  
     opacity: 1; 
     z-index: 1;
-    background: #eee;
+    background: #ffffe2;
 }
 
 /* Covers the gold background all of the time -- container for icons */
@@ -138,7 +138,7 @@ body {
 }
 
 .card-inner i {
-    font-size: 2.5em;
+    font-size: 3.5em;
 }
 
 

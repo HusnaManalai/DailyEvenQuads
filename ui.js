@@ -77,6 +77,7 @@ function onCardClicked(cardNum, cardEl) {
             cardEls.forEach(x => x.classList.remove("animating", "incorrect", "correct", "already-found")),
             { once: true })
         
+
     }
     
 }
@@ -107,10 +108,10 @@ function deQuadKey(key) {
 function createDomCard(card) {
 
     const SHAPES = [
-        "fa-biohazard",
-        "fa-dice-d20",
-        "fa-tooth",
-        "fa-crown"
+        "fa-heart",
+        "fa-square",
+        "fa-star",
+        "fa-circle"
     ];
 
     // Convert to a base 4 array
