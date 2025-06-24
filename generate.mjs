@@ -11,6 +11,7 @@ const MAX_QUADS_INIT = 5;
 * @param  {Int} date  Integer to seed the PRNG
 * @return {Set}       A set of ints corresponding to QUADS cards.
 */
+
 export function daily(date) {
     // Hash the date
     let rand = mulberry32(hash(hash(date)));
